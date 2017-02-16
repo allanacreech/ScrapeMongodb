@@ -1,0 +1,32 @@
+{
+  "name": "scrapemongodb",
+  "version": "1.0.0",
+  "description": "Scraping web for the latest news with Mongoose and Cheerio muscles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanacreech/ScrapeMongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "scrape",
+    "cherrio"
+  ],
+  "author": "Allana Creech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanacreech/ScrapeMongodb/issues"
+  },
+  "homepage": "https://github.com/allanacreech/ScrapeMongodb#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.2",
+    "request": "^2.79.0"
+  }
+}
